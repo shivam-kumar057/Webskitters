@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1021445893180",
+    "project_id": "webskitters-55145",
+    "storage_bucket": "webskitters-55145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021445893180:android:a8dcc5683445b54622e739",
+        "android_client_info": {
+          "package_name": "com.webskitters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021445893180-hqfd41nr8lffjtrj93dolko5929bgrm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webskitters",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1021445893180-pv7rvj2eu9infdp61o2s1il08s1bfmb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbLO_lXvonUBXO8WGhlxOSgcegvWK6M0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021445893180-pv7rvj2eu9infdp61o2s1il08s1bfmb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
