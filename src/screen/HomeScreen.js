@@ -33,7 +33,7 @@ const HomeScreen = () => {
 
     const addData = (id) => {
         try {
-            if (name && price && offerPrice && imageUrl) {
+            if (name && price && offerPrice) {
                 const index = firebaseData?.length || 0;
                 let data = { "name": name, "price": price, "offerPrice": offerPrice, "imageUrl": imageUrl }
                 dispatch(addUserData(data, index))
@@ -119,7 +119,7 @@ const HomeScreen = () => {
                 <View style={styles.renderDataContainer}>
                     <View style={styles.mainCOntainer}>
                         <View style={styles.innterView}>
-                            <Text style={styles.textHeader}>name :</Text>
+                            <Text style={styles.textHeader}>new name :</Text>
                             <Text style={styles.textData}>{item.name}</Text>
                         </View>
                         <View style={styles.innterView}>
